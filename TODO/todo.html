@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TODO list</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header>
+	<nav>
+		<h1>To do list app</h1>
+	</nav>
+</header>
+<section>
+	<div class="container left">
+		<ul class="menu">
+			<li><button type="submit" id="todo" class="button1" onclick="display()"/>TO DO</button></li>
+			<li><button type="submit" id="user" class="button1">User</button></li>
+			<li><button type="submit" id="about" class="button1">About</button></li>
+		</ul>
+	</div>
+	<div class="container right">
+	<input type = "text" id="search" placeholder="Search" />
+	<button type="submit" id="go" value="go" onclick="addListAfterClick()">go</button>
+	<div class = "todos">
+		<ul class = "UL"></ul>
+	</div>
+	</div>
+</section>
+<script src="script.js">
+</script>
+</body>
+</html>
